@@ -1,3 +1,6 @@
+let footerText = document.querySelector('#footer-text')
+
+
 const menu = [
   {
     id: 1,
@@ -169,6 +172,8 @@ const categoryList = () => {
     });
   });
 };
+//Live Footer Text
+//footerText.innerHTML = `${"&copy; "}${new Date().getFullYear()}${' All Rights Reserved '}${'<a class="text-white text-decoration-none" href="https://github.com/eminsaygi">@eminsaygi</a>'}`
 
 const menuList = (menuItems) => {
   let displayMenu = menuItems.map((item) => {
